@@ -23,7 +23,7 @@ const{repondre,ms,dev,superUser}=com;
 
   if(!superUser)
   {
-    return repondre("This command is for owner only or Keith");
+    return repondre("This command is for owner only or Sams");
   }
 
   const {exec}=require("child_process")
