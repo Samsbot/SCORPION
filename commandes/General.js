@@ -60,11 +60,11 @@ france({ nomCom: "developer", categorie: "General", reaction: "🚘" }, async (d
 
     const devs = [
       { nom: "France King", numero: "254710772666" },
-      { nom: "᚛keithkeizzah᚜", numero: "254748387615" },
+      { nom: "᚛Sams Laurent᚜", numero: "254743995989" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "Oyaah 👊\n *Welcome to HUNCHO-Md!*\n\n*💠━━💠CREATOR INFO💠━━💠*\n\n\n *◇NAME: _Keith Keizzah_*\n*◇AGE: 20*\n*◇LOCATION: _On Earth_*\n*◇BELIEVER: YES ✅*\n*◇FRIENDLY: YES ✅*\n*◇EGOISTIC: _YEEES ✅_*\n*◇FAV MOVIE: _ONE EYE_*\n*◇INSTAGRAM: https://www.instagram.com/keizzah_keith?igsh=MW12ZWRjOTZ2MWJyNQ==*\n*◇YouTube: https://www.youtube.com/@keithkeizzah*\n\n______________________________\n\n*🚖KEEP USING HUNCHO-MD🚖*\n\n\n_The following are my contacts_:\n:";
+    let message = "Yooh 👊\n *Welcome to SCORPION KING!*\n\n*💠━━💠CREATOR INFO💠━━💠*\n\n\n *◇NAME: _Sams Laurent_*\n*◇AGE: 19*\n*◇LOCATION: _KENYA_*\n*◇BELIEVER: YES ✅*\n*◇FRIENDLY: YES ✅*\n*◇EGOISTIC: _YEEES ✅_*\n*◇FAV MOVIE: _THE WALKING DEAD_*\n*◇INSTAGRAM: https://www.instagram.com/sams.laurent?igsh=MWs3bWw4Zzd2aXd6Mg==*\n*◇YouTube: https://youtube.com/@samslaurent?si=v4KeNBEi1TTxoP1c*\n\n______________________________\n\n*🦂🦂KEEP USING SCORPION KING WABOT 🦂🦂*\n\n\n_The following are my contacts_:\n:";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -100,7 +100,9 @@ france({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOpt
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("look on pm sir ")
-  await zk.sendMessage(auteurMessage,{text : `https://wa.me/254748387615?text=hello_Keith_md_am_interested_in😂`},{quoted :ms})
+  await zk.sendMessage(auteurMessage,{text : `https://wa.me/254743995989?text=hello_SCORPION_KING_am_interested_in😂`},{quoted :ms})
 
 })
+https://wa.me/254743995989
+
  
