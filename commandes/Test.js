@@ -4,7 +4,7 @@ const { france } = require("../framework/france");
 france({ nomCom: "test", reaction: "⏳", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
     let z = '𝐁𝐎𝐓 𝐈𝐒 𝐎𝐍𝐋𝐈𝐍𝐄 \n\n ' + "║❒ 𝐓𝐘𝐏𝐄 𝐌𝐄𝐍𝐔 𝐓𝐎 𝐒𝐄𝐄 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒";
-    let d = '                                            ║❒ 𝗬𝗼𝘂𝗧𝘂𝗯𝗲 https://www.youtube.com/@keithkeizzah';
+    let d = '                                            ║❒ 𝗬𝗼𝘂𝗧𝘂𝗯𝗲 https://youtube.com/@samslaurent?si=v4KeNBEi1TTxoP1c';
     let varmess = z + d;
     var img = 'https://telegra.ph/file/e18441d126f37be8efbfa.jpg';
     await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
@@ -19,9 +19,9 @@ console.log("mon test");
 
 async function  execute  (origineMessage,zok) {
   console.log("Commande saisie !!!s")
-   let z ='Salut je m\'appelle *HUNCHO-MD-REPO* \n\n '+'je suis un bot Whatsapp Multi-appareil '
-      let d =' developpé par *HUNCHO-MD-REPO*'
+   let z ='Salut je m\'appelle *SCORPION KING-REPO* \n\n '+'je suis un bot Whatsapp Multi-appareil '
+      let d =' developpé par *SCORPION KING-REPO*'
       let varmess=z+d
       var img='https://telegra.ph/file/e18441d126f37be8efbfa.jpg'
 await  zok.sendMessage(origineMessage,  { image:{url:img},caption:varmess});
-}  */ 
+}  */
