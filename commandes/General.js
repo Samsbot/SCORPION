@@ -103,6 +103,5 @@ france({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOpt
   await zk.sendMessage(auteurMessage,{text : `https://wa.me/254743995989?text=hello_SCORPION_KING_am_interested_in😂`},{quoted :ms})
 
 })
-https://wa.me/254743995989
 
  
